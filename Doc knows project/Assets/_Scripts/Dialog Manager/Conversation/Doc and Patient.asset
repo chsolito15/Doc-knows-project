@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe3474bebba7c64f89ab969bf8ca660, type: 3}
+  m_Name: Doc and Patient
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: dfe8ac62e2a0ae8468c6bc9263faea29, type: 2}
+  speakerRight: {fileID: 11400000, guid: 80b76aa3a8e88194eab79775137a4bb6, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: dfe8ac62e2a0ae8468c6bc9263faea29, type: 2}
+    text: Do you have a sleep problem?
+  - character: {fileID: 11400000, guid: 80b76aa3a8e88194eab79775137a4bb6, type: 2}
+    text: 'Yes doc, I had sleep disorder,
+
+      do you have effective medicine Doc?'
+  - character: {fileID: 11400000, guid: dfe8ac62e2a0ae8468c6bc9263faea29, type: 2}
+    text: "Zolpidem oral tablets are used \nto treat insomnia. Insomnia causes\ntrouble
+      falling asleep \nor staying asleep."
+  - character: {fileID: 11400000, guid: 80b76aa3a8e88194eab79775137a4bb6, type: 2}
+    text: "Thanks doc for medicine and\n medical advice."
