@@ -17,6 +17,7 @@ public class UnlockLevel : MonoBehaviour
         if(currentLevel > 10)
         {
             PlayerPrefs.DeleteAll();
+            SceneManager.LoadScene(0);
         }
     }
 }
