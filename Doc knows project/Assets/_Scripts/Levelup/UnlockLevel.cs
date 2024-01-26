@@ -13,5 +13,10 @@ public class UnlockLevel : MonoBehaviour
             PlayerPrefs.SetInt("unlocked", currentLevel);
             Debug.Log("Level: " + PlayerPrefs.GetInt("unlocked") + "Unlocked");
         }
+
+        if(currentLevel > 10)
+        {
+            PlayerPrefs.DeleteAll();
+        }
     }
 }
